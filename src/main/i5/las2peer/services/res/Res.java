@@ -125,7 +125,7 @@ public class Res extends RESTService {
         artist: {
           id: 58,
           type: "Artist",
-          nameWithoutThePrefix": "Bob Marley",
+          nameWithoutThePrefix: "Bob Marley",
           "useThePrefix": false,
           "name": "Bob Marley"
         },

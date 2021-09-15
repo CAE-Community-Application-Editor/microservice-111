@@ -119,7 +119,7 @@ public class Res extends RESTService {
       JSONObject result = new JSONObject();
  
      var songs = '{' +
-        '"id": 12709,
+        '"id": 12709,''
         "type": "Song",
         "title": "Jammin",
         "artist": {

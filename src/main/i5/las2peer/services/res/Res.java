@@ -118,7 +118,25 @@ public class Res extends RESTService {
     if(response_condition) {
       JSONObject result = new JSONObject();
  
-      var
+      var songs = {
+    "id": 12709,
+    "type": "Song",
+    "title": "Jammin",
+    "artist": {
+      "id": 58,
+      "type": "Artist",
+      "nameWithoutThePrefix": "Bob Marley",
+      "useThePrefix": false,
+      "name": "Bob Marley"
+    },
+    "chordsPresent": true,
+    "tabTypes": [
+      "PLAYER",
+      "TEXT_GUITAR_TAB",
+      "CHORDS",
+      "TEXT_BASS_TAB"
+    ]
+  }
 
       return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build();
     }

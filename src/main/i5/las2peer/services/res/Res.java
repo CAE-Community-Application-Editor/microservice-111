@@ -122,7 +122,7 @@ public class Res extends RESTService {
         '"id": 12709,' +
         '"type": "Song",' +
         '"title": "Jammin",' +
-        "artist": {
+        '"artist": {' +
           "id": 58,
           "type": "Artist",
           "nameWithoutThePrefix": "Bob Marley",

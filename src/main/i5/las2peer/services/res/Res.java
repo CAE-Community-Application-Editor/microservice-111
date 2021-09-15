@@ -137,7 +137,7 @@ public class Res extends RESTService {
           "TEXT_BASS_TAB"
         ]
       }'; 
-        result = JSON.Parse(songs)
+        result = JSON.Parse(songs);
 
       return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build(); 
       //  return Response.status(HttpURLConnection.HTTP_OK).entity(songs.toJSONString()).build();

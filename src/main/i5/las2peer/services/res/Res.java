@@ -139,7 +139,7 @@ public class Res extends RESTService {
       };
 
       //return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build(); 
-        return Response.status(HttpURLConnection.HTTP_OK).entity(songs).build();
+        return Response.status(HttpURLConnection.HTTP_OK).entity(songs.toJSONString()).build();
     }
     return null;
   }

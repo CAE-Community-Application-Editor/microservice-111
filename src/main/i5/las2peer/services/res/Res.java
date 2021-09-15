@@ -126,15 +126,6 @@ public class Res extends RESTService {
           '"id": 58,' +
           '"type": "Artist",' +
           '"name": "Bob Marley"}';
-        },
-        "chordsPresent": true,
-        "tabTypes": [
-          "PLAYER",
-          "TEXT_GUITAR_TAB",
-          "CHORDS",
-          "TEXT_BASS_TAB"
-        ]
-      }; 
 
 
       //return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build(); 

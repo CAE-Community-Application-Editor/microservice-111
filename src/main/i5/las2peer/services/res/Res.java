@@ -118,9 +118,9 @@ public class Res extends RESTService {
     if(response_condition) {
       JSONObject result = new JSONObject();
  
-     obj.name = "Raj";
-obj.age = 32;
-obj.married = false;
+        obj.name = "Raj";
+        obj.age = 32;
+        obj.married = false;
 
 
       return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build(); 

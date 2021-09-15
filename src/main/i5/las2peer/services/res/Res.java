@@ -119,13 +119,13 @@ public class Res extends RESTService {
       JSONObject result = new JSONObject();
  
       var songs = JSON.stringify({
-        "id": 12709,
-        "type": "Song",
-        "title": "Jammin",
-        "artist": {
-          "id": 58,
-          "type": "Artist",
-          "nameWithoutThePrefix": "Bob Marley",
+        id: 12709,
+        type: "Song",
+        title: "Jammin",
+        artist: {
+          id: 58,
+          type: "Artist",
+          nameWithoutThePrefix": "Bob Marley",
           "useThePrefix": false,
           "name": "Bob Marley"
         },

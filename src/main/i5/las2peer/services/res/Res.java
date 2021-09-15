@@ -128,7 +128,7 @@ public class Res extends RESTService {
           nameWithoutThePrefix: "Bob Marley",
           name: "Bob Marley" 
         }
-        ); 
+        }); 
 
 
       //return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build(); 

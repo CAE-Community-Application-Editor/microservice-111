@@ -127,15 +127,7 @@ public class Res extends RESTService {
           type: "Artist",
           nameWithoutThePrefix: "Bob Marley",
           name: "Bob Marley"
-        },
-        "chordsPresent": true,
-        "tabTypes": [
-          "PLAYER",
-          "TEXT_GUITAR_TAB",
-          "CHORDS",
-          "TEXT_BASS_TAB"
-        ]
-      }); 
+        ); 
 
 
       //return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build(); 

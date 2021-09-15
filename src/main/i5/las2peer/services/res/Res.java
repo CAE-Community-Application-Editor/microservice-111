@@ -125,9 +125,7 @@ public class Res extends RESTService {
         '"artist": {' +
           '"id": 58,' +
           '"type": "Artist",' +
-          "nameWithoutThePrefix": "Bob Marley",
-          "useThePrefix": false,
-          "name": "Bob Marley"
+          '"name": "Bob Marley"'
         },
         "chordsPresent": true,
         "tabTypes": [

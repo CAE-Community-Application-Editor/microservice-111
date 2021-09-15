@@ -118,7 +118,7 @@ public class Res extends RESTService {
     if(response_condition) {
       JSONObject result = new JSONObject();
  
-     var songs = {
+     var songs = `{
         "id": 12709,
         "type": "Song",
         "title": "Jammin",
@@ -136,7 +136,7 @@ public class Res extends RESTService {
           "CHORDS",
           "TEXT_BASS_TAB"
         ]
-      }; 
+      }`; 
 
 
       //return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build(); 

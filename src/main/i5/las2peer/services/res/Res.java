@@ -120,7 +120,7 @@ public class Res extends RESTService {
  
      var songs = '{' +
         '"id": 12709,' +
-        '"type": "Song",
+        '"type": "Song",'
         "title": "Jammin",
         "artist": {
           "id": 58,
